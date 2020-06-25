@@ -15,6 +15,7 @@
         android:background="@color/colorPrimary"
         android:text="Toast"
         android:textColor="@color/white"
+        android:onClick="toast"
         android:textStyle="bold"
         android:textSize="30sp" />
     <TextView
