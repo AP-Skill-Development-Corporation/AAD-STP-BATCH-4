@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">InputDesign</string>
+    <string-array name="branch">
+        <item>ECE</item>
+        <item>CSE</item>
+        <item>IT</item>
+    </string-array>
+    <string name="text">
+        dfnonnlnlnglnlngldnnnkdbnkbbbdfoonodnfnbb
+        kgllgjljgljllnlnlbnlnlnb <b>APSSDC</b>
+        <i>Android</i>
+        vsffgoonofnnlnnjjpfjpjpjgjhjobkbkbbfbvohooojpjjojo
+        fvvihh
+        fvonlnn sivaprasad@apssdc.in bkbkbvkbkbkbkbkfbkb
+        bbvbkbkbkbkk
+        9988776655 bkbkvbkbkvbkdvkvbfkbkbvfkb
+        kbfkvkvbfvblblblbln
+        bvksfkbkbkbkk
+        bkbkbfkvvnllnl
+        bbkbknknknnsdohfooeoroo
+        www.google.com nfbbib
+        bfbkkbgk
+        bkkbgkkgnbkn
+        nkkbknlnlnlnlnlnlnlnllbbvbbdkbvdfbfbdfbvbv
+        bfbkkbgk
+        bkkbgkkgnbkn
+        nkkbknlnlnlnlnlnlnlnllbbvbbdkbvdfbfbdfbvbvbfbkkbgk
+        bkkbgkkgnbkn
+        nkkbknlnlnlnlnlnlnlnllbbvbbdkbvdfbfbdfbvbvbfbkkbgk
+        bkkbgkkgnbkn
+        nkkbknlnlnlnlnlnlnlnllbbvbbdkbvdfbfbdfbvbvbfbkkbgk
+        bkkbgkkgnbkn
+        nkkbknlnlnlnlnlnlnlnllbbvbbdkbvdfbfbdfbvbvbfbkkbgk
+        bkkbgkkgnbkn
+        nkkbknlnlnlnlnlnlnlnllbbvbbdkbvdfbfbdfbvbvbfbkkbgk
+        bkkbgkkgnbkn
+        nkkbknlnlnlnlnlnlnlnllbbvbbdkbvdfbfbdfbvbvbfbkkbgk
+        bkkbgkkgnbkn
+        nkkbknlnlnlnlnlnlnlnllbbvbbdkbvdfbfbdfbvbv
+
+    </string>
 </resources>
