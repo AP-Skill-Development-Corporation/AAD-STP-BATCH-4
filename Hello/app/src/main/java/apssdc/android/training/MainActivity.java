@@ -1,5 +1,6 @@
 package apssdc.android.training;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -10,27 +11,31 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-Button count;
-TextView tv;
-int c;
+    Button count;
+    TextView tv;
+    int c;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        count=findViewById(R.id.count_button);
-        tv=findViewById(R.id.text_view);
+        count = findViewById(R.id.count_plus);
+
+
+        tv = findViewById(R.id.text_view);
+
         count.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 c++;
-                tv.setText(""+c);
-                Log.i("msg",""+tv);
+                tv.setText("" + c);
             }
         });
+
+
     }
 
-
     public void toast(View view) {
-        Toast.makeText(this,"Value is:  "+c,Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Hello Toast", Toast.LENGTH_SHORT).show();
     }
 }
