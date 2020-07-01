@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ImplicitIntent</string>
+    <string name="etText">Enter text or number here</string>
+    <string name="dail">Dail</string>
+    <string name="share">Share</string>
+    <string name="whatsapp">Whatsapp</string>
+</resources>
