@@ -72,8 +72,15 @@ Microphone and Speakers facility for Offline training program.
 ### Mode Of Training :
 - Online (Via GoToMeeting / Google Meet)
 
+### Retrofit Dependance
+**implementation 'com.squareup.retrofit2:retrofit:2.1.0'
 
+**implementation 'com.squareup.retrofit2:converter-scalars:2.1.0'
 
+**compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 
 
 
