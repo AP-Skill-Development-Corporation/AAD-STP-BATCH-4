@@ -8,6 +8,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -30,7 +34,25 @@ ProgressBar pg;
         data.enqueue(new Callback<String>() {
             @Override
             public void onResponse(Call<String> call, Response<String> response) {
-                Toast.makeText(MainActivity.this, ""+response.body(), Toast.LENGTH_SHORT).show();
+               /*// Toast.makeText(MainActivity.this, ""+response.body(), Toast.LENGTH_SHORT).show();
+               text.setText(response.body());*/
+                try {
+                    JSONArray root=new JSONArray(response.body());
+                    for (int i=0;i<root.length();i++){
+                        JSONObject data= root.getJSONObject(i);
+                        String date=data.getString("Date");
+                        int active=data.getInt("Active");
+                        int conf=data.getInt("Confirmed");
+                        int recover=data.getInt("Recovered");
+                        int death=data.getInt("Deaths");
+                        text.append(date.substring(0,10)+" : "+active+" : "+conf+ " : "+recover+" : "+death+"\n");
+
+
+                    }
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
                 pg.setVisibility(View.GONE);
             }
 
