@@ -5,9 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
+    ImageView imageView;
     PowerReceiver powerReceiver;
 
     @Override
@@ -16,7 +18,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Initialize the Power Receiver
-        powerReceiver = new PowerReceiver();
+
+
+        imageView = findViewById(R.id.imageView);
+
+        powerReceiver = new PowerReceiver(imageView);
 
         // Create an IntentFilter Object to tell the broadcast receiver
         // about for which particular broadcasts we are waiting.
