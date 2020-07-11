@@ -24,7 +24,7 @@
         android:inputType="textEmailAddress"
         style="@style/edit_text"/>
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/user_password"
         android:inputType="textPassword"
        style="@style/edit_text"/>
     <LinearLayout

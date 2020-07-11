@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RoomDataBase</string>
+    <string name="enater_user_name">Enater user name</string>
+    <string name="inset">Inset</string>
+</resources>
